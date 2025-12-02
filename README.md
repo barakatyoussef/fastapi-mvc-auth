@@ -31,7 +31,7 @@ Le projet suit une séparation stricte des responsabilités pour assurer la main
 docker-compose up --build
 ```
 ### Option 2 : Manuelle (Local)
-```
+```bash
 # 1. Créer l'environnement virtuel
 python -m venv .venv
 source .venv/bin/activate  # ou .venv\Scripts\activate sur Windows
