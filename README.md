@@ -45,6 +45,5 @@ uvicorn main:app --reload
 ## 👤 Auteur
 
 **Youssef Barakat**
-* Projet réalisé dans le cadre académique.
 * [LinkedIn](https://www.linkedin.com/)
 * [GitHub](https://github.com/barakatyoussef)
