@@ -43,7 +43,6 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 ## 👤 Auteur
-
 **Youssef Barakat**
 * [LinkedIn](https://www.linkedin.com/)
 * [GitHub](https://github.com/barakatyoussef)
