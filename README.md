@@ -61,5 +61,3 @@ Une fois le serveur lancé, accédez à la documentation interactive :
 
 ## 👤 Auteur
 **Youssef Barakat**
-* [LinkedIn](https://www.linkedin.com/)
-* [GitHub](https://github.com/barakatyoussef)
