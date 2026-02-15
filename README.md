@@ -23,6 +23,17 @@ Le projet suit une séparation stricte des responsabilités pour assurer la main
 * 🚀 **Haute Performance :** Utilisation de FastAPI (Asynchrone).
 * 🛡️ **Validation des Données :** Utilisation de Pydantic.
 
+## ⚙️ Configuration (.env)
+
+Avant de lancer le projet, créez un fichier `.env` à la racine et ajoutez vos variables :
+```env
+MONGO_URL=mongodb://localhost:27017
+DB_NAME=fastapi_auth_db
+SECRET_KEY=votre_cle_secrete_super_longue
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+```
+
 ## 🛠️ Installation et Démarrage
 
 ### Option 1 : Via Docker (Recommandé)
@@ -42,6 +53,12 @@ pip install -r requirements.txt
 # 3. Lancer le serveur
 uvicorn main:app --reload
 ```
+
+## 📚 Documentation API (Swagger)
+Une fois le serveur lancé, accédez à la documentation interactive :
+* **Swagger UI :** [http://localhost:8000/docs](http://localhost:8000/docs)
+* **ReDoc :** [http://localhost:8000/redoc](http://localhost:8000/redoc)
+
 ## 👤 Auteur
 **Youssef Barakat**
 * [LinkedIn](https://www.linkedin.com/)
